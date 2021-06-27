@@ -54,7 +54,7 @@
             "value": false
         },
         "allowAzureIps": {
-            "value": false
+            "value": true
         },
         "databaseTags": {
             "value": {}
