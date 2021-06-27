@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "applicationGatewayName": {
+            "value": "Gateway-lab3"
+        },
+        "tier": {
+            "value": "Standard_v2"
+        },
+        "skuSize": {
+            "value": "Standard_v2"
+        },
+        "capacity": {
+            "value": 2
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "zones": {
+            "value": []
+        },
+        "virtualNetworkName": {
+            "value": "vpn-lab3"
+        },
+        "virtualNetworkPrefix": {
+            "value": [
+                "10.0.0.0/24"
+            ]
+        },
+        "publicIpAddressName": {
+            "value": "publicIP-lab3"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "allocationMethod": {
+            "value": "Static"
+        },
+        "publicIpZones": {
+            "value": []
+        }
+    }
+}
